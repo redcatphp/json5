@@ -65,7 +65,7 @@ class Formatter {
 				}
 				$r .= str_repeat($indent,$nested);
 				if ($with_keys) {
-				   $r .= '"'. json_encode($key, $options) . '": ';
+				   $r .= json_encode($key, $options) . ': ';
 				}
 				$r .= self::json_encode($v, $options, $keepComments, $indent, $linebreak, $nested+1);
 				if($i<$c){

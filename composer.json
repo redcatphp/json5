@@ -1,0 +1,24 @@
+{
+  "name": "redcatphp/json5",
+  "description": "JSON5 parser/encoder for PHP",
+  "keywords": ["JSON", "JSON5", "PHP"],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+		"name": "Jo Surikat",
+		"email": "jo@surikat.pro",
+		"homepage": "http://redcatphp.com",
+		"role": "Developer"
+	}
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RedCat\\JSON5\\": ""
+    }
+  }
+}

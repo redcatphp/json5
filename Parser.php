@@ -141,8 +141,9 @@ class Parser {
     $res = [];
     while ($json5 !== "") {
       $this->parse_comment($json5, $res);
-      if (strncmp($json5, "}", 1) === 0) {
-        $json5 = substr($json5, 1);
+      $ltJson5 = ltrim($json5);
+      if (strncmp($ltJson5, "}", 1) === 0) {
+        $json5 = substr($ltJson5, 1);
         break;
       }
       $c = substr($json5, 0, 1);

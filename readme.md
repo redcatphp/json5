@@ -1,3 +1,5 @@
+**No longer actively maintained. I work now with NodeJS and I recommand you to take a look at [json5](https://github.com/json5/json5)**
+
 ##JSON5 PHP decode, modify and re-encode keeping comments
 
 Derived from
